@@ -1,0 +1,63 @@
+#logomarca{
+    width: 200px;
+    height: auto;
+    align-content: center;
+}
+p{
+    text-align: justify;
+}
+img {
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 0px;
+    border-radius: 10%;
+}
+img, iframe {
+    display: block;
+}
+h1, h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+a:link {
+    color: green;
+    text-decoration: none;
+    font: 10px;
+}
+a:hover{
+    color:hotpink   ;
+    animation: 9o;
+}
+a:visited{
+    color: greenyellow;
+}
+
+a:active{
+    color: red;
+}
+
+a[href*="http"]{
+    background-image: url(img/globo.png);
+    background-repeat: no-repeat;
+    padding-left: 25px;
+
+
+}
+
+strong {
+    font-size: 25px;
+    padding-left: 6px;
+    padding-right: 6px;
+    background: rgba(179, 141, 160, 0.7);
+}
+p em{
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+em.ref {
+    color: grey;
+}
+body{
+    background-color: rgba(220, 220, 220, 1);
+}
